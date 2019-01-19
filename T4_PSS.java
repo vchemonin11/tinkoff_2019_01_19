@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Tink2019_5_2 {
+public class T4_PSS {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
