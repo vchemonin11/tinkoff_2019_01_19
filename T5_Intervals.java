@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Tink_2019_5_2 {
+public class T5_Intervals {
     static class Segm implements Comparable<Segm> {
         public int beg;
         public int end;
