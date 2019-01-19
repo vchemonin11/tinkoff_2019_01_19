@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Tink_2019_1_2 {
+public class T1_Palindrome {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
