@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Tink_2019_7_2 {
+public class T7_Plus3_Mult4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int x = scanner.nextInt();
