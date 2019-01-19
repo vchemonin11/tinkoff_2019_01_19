@@ -1,11 +1,10 @@
 import java.util.Scanner;
 
-public class Tink2019_2_2 {
+public class T2_RepeatedChars {
 
     private static final int[] CHARS = new int[26];
 
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
         String s = scanner.nextLine();
         calc(s);
