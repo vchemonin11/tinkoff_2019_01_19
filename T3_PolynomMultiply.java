@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Tink2019_3_2 {
+public class T3_PolynomMultiply {
 
     static public class Polynomial {
         private final long[] coeff;
