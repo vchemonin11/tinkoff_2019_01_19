@@ -9,11 +9,21 @@ public class T4_PSS {
         System.out.println(sum);
     }
 
+    public static void main1(String[] args) {
+        String s = "??????????????????????????????????";
+        System.out.println(s.length());
+        int sum = count("??????????????????????????????????", 0, 0);
+        System.out.println(sum);
+    }
+
     private static int count(String s, int index, int counter) {
-        int sum = 0;
         if (counter < 0) {
             return 0;
         }
+        if (s.length() - index < counter) {
+            return 0;
+        }
+        int sum = 0;
         for (int i = index; i < s.length(); ++i) {
             if (s.charAt(i) == '(') {
                 counter++;
